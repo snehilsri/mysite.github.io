@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html
 <head>
+
 <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
 <link href='https://fonts.googleapis.com/css?family=Yellowtail' rel='stylesheet'>
 <link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
@@ -54,13 +55,40 @@ $(document).ready(function(){
 $(document).ready(function(){
 	$(".type").typed({
 		strings:[
-		"website.","android apps."],
-		typeSpeed:70,
+		"Curriculum Vitae"],
+		typeSpeed:50,
 		typeDelay:200,
 		loop:true
 	});
 });
 </script>
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+<link rel="shortcut icon" href="favicon.ico">
 <title>Snehil Srivastava</title>
 <style>
 	ul {
@@ -113,6 +141,16 @@ h1{
 	text-align: center;
 	font-family: 'Sofia';
 	font-size: 80px;
+	color: #0F1626;
+}
+h2{
+	margin-top: 0px;
+	margin-left: 130px;
+	text-align: center;
+	font-family: 'Aclonica';
+	font-size: 43px;
+	width: 1px;
+	word-wrap: break-word;
 	color: #0F1626;
 }
 #pa1{
@@ -170,20 +208,72 @@ h1{
 
 <div style="width:1000px; height:40px;background-color: #0F1626; margin-top:30px; float: right;margin-left: 0px; margin-bottom: 0px;margin-right: 0px;clear: right;">
 <ul>
-  <li ><a href="#Intro" class="1" style="background-color: #4ABDAC;">Intro</a></li>
-  <li ><a href="#Education" class="1" style="background-color: #f7b733;">Education</a></li>
-  <li ><a href="#Skills" class="1" style="background-color: #4ABDAC;">Skills</a></li>
-  <li ><a href="#Projects" class="1" style="background-color: #f7b733;">Projects</a></li>
-  <li ><a href="#Contact" class="1" style="background-color: #4ABDAC;">Contact</a></li>
+  <li ><a href="#section1" class="1" style="background-color: #4ABDAC;">Intro</a></li>
+  <li ><a href="#section2" class="1" style="background-color: #f7b733;">Education</a></li>
+  <li ><a href="#section3" class="1" style="background-color: #4ABDAC;">Skills</a></li>
+  <li ><a href="#section4" class="1" style="background-color: #f7b733;">Projects</a></li>
+  <li ><a href="#section5" class="1" style="background-color: #4ABDAC;">Contact</a></li>
 </ul>
 
 </div>
-<div style="width:1000px; height:450px;background-color: #FF533D; margin-top:30px; float: right;margin-left: 0px;">
+<div style="width:1000px; height:450px;background-color: #FF533D; margin-top:30px; float: right;margin-left: 0px;" id="section1">
 
 <h1>Hi I'm Snehil !</h1>
-<p id="pa1">i design <i class="fa fa-spinner fa-spin" style="font-size: 20px; color:#f7b733;"></i> <i class="fa fa-spinner fa-spin" style="font-size: 20px; color:#f7b733;"></i> <i class="fa fa-spinner fa-spin" style="font-size: 20px; color:#f7b733;"></i></p>
+<p id="pa1">welcome to my <i class="fa fa-spinner fa-spin" style="font-size: 20px; color:#f7b733;"></i> <i class="fa fa-spinner fa-spin" style="font-size: 20px; color:#f7b733;"></i></p>
 <p id="pa2"><span class="type"></span></p>
 <img src="snehil.jpg" width="250px" height="250px" align="left" style="margin-top: -350px;margin-left: 70px; border-radius: 50%; border: 6px solid #4ABDAC;">
 </div>
+<div style="width:100%; height:450px; margin-top:30px; float: left;margin-right: 0px;" id="section2">
+	<div style="width:22.50%; height:100%;background-color: #4ABDAC; margin-top:0px; float: left;margin-right: 0px; margin-bottom: 0px;margin-right: 0px;clear: right;">
+<h2>Education</h2>
+</div>
+	<div style="width:75%; height:100%;background-color: #f7b733; float: right;margin-left: 0px;">
+
+
+</div>
+
+
+
+</div>
+
+<div style="width:100%; height:450px; margin-top:30px; float: left;margin-right: 0px;" id="section3">
+	<div style="width:22.50%; height:100%;background-color: #f7b733; margin-top:0px; float: left;margin-right: 0px; margin-bottom: 0px;margin-right: 0px;clear: right;">
+<h2 style="margin-top: 50px;">Skills</h2>
+</div>
+	<div style="width:75%; height:100%;background-color: #FF533D; float: right;margin-left: 0px;">
+
+
+</div>
+
+
+
+</div>
+
+<div style="width:100%; height:450px; margin-top:30px; float: left;margin-right: 0px;" id="section4">
+	<div style="width:22.50%; height:100%;background-color: #4ABDAC; margin-top:0px; float: left;margin-right: 0px; margin-bottom: 0px;margin-right: 0px;clear: right;">
+<h2 style="margin-top: 20px;">Projects</h2>
+</div>
+	<div style="width:75%; height:100%;background-color: #f7b733; float: right;margin-left: 0px;">
+
+
+</div>
+
+
+
+</div>
+
+<div style="width:100%; height:450px; margin-top:30px; float: left;margin-right: 0px;" id="section5">
+	<div style="width:22.50%; height:100%;background-color: #f7b733; margin-top:0px; float: left;margin-right: 0px; margin-bottom: 0px;margin-right: 0px;clear: right;">
+<h2 style="margin-top: 30px;">Contact</h2>
+</div>
+	<div style="width:75%; height:100%;background-color: #FF533D; float: right;margin-left: 0px;">
+
+
+</div>
+
+
+
+</div>
+
 </body>
 </html>
