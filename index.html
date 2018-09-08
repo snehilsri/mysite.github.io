@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html
+<head>
+
+<link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Yellowtail' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="jquery-ui-1.12.1"></script>
+<script src="jquery-3.2.1.min.js"></script>
+<script src="jquery-ui.min.js"></script>
+<script src="jquery-ui.js"></script>
+<script src="typed.js"></script>
+<script>
+$(document).ready(function(){
+	$(".btn1").click(function(){
+		$("#div1").toggle("slide");
+	});
+});
+$(document).ready(function(){
+	$(".1").click(function(){
+		$(this).hide('slide', {direction: 'left'}, 300).show('slide', {direction: 'right'}, 300);
+	});
+});
+$(document).ready(function(){
+	$("#bt1").on({
+		mouseenter:function(){
+			$("#p1").show('slide', {direction: 'right'}, 300);
+		},
+		mouseleave:function(){
+			$("#p1").hide('slide', {direction: 'right'}, 300);
+		}
+	});
+});
+$(document).ready(function(){
+	$("#bt2").on({
+		mouseenter:function(){
+			$("#p2").show('slide', {direction: 'right'}, 300);
+		},
+		mouseleave:function(){
+			$("#p2").hide('slide', {direction: 'right'}, 300);
+		}
+	});
+});
+$(document).ready(function(){
+	$("#bt3").on({
+		mouseenter:function(){
+			$("#p3").show('slide', {direction: 'right'}, 300);
+		},
+		mouseleave:function(){
+			$("#p3").hide('slide', {direction: 'right'}, 300);
+		}
+	});
+});
+$(document).ready(function(){
+	$(".type").typed({
+		strings:[
+		"Curriculum Vitae"],
+		typeSpeed:50,
+		typeDelay:200,
+		loop:true
+	});
+});
+</script>
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+<link rel="shortcut icon" href="favicon.ico">
+<title>Snehil Srivastava</title>
+<style>
+	ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+    width: 20%;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+	font-size: 18px;
+}
+#i1:hover{
+	font-size: 38px;
+	cursor: pointer;
+	color: #1a1aff;
+
+}
+#i2:hover{
+	font-size: 38px;
+	cursor: pointer;
+	color: #ff1a75;
+}
+#i3:hover{
+	font-size: 38px;
+	cursor: pointer;
+	color: red;
+}
+#i4:hover{
+	font-size: 38px;
+	cursor: pointer;
+	color: black;
+}
+h1{
+	margin-top: 0px;
+	margin-left: 220px;
+	text-align: center;
+	font-family: 'Sofia';
+	font-size: 80px;
+	color: #0F1626;
+}
+h2{
+	margin-top: 0px;
+	margin-left: 130px;
+	text-align: center;
+	font-family: 'Aclonica';
+	font-size: 43px;
+	width: 1px;
+	word-wrap: break-word;
+	color: #0F1626;
+}
+#pa1{
+	margin-left: 500px;
+	margin-top: -20px;
+	text-align: center;
+	font-size: 65px;
+	font-family: 'Sofia';
+	color: #f7b733;
+}
+#pa2{
+	margin-left: 300px;
+	margin-top: -20px;
+	text-align: center;
+	font-size: 65px;
+	font-family: 'Aclonica';
+	color: #0F1626;
+}
+</style>
+</head>
+<body style="background-color: #0F1626">
+
+<button type="button" class="btn1" id="bt1" style="margin-top: 20px;float: right; padding: 6px; background-color: #0F1626;border: 2px solid #6D799D;color:#6D799D;margin-bottom: 0px; font-size: 15px;margin-right: 0px;margin-left: 0px;border-radius: 10%; cursor: pointer;">&nbsp;<i class="fa fa-user"></i>&nbsp;<i class="fa fa-cog fa-spin "></i></button>
+<p id="p1" style="margin-top: 20px;float: right; padding: 6px; background-color: #0F1626;border: 2px solid #6D799D;color:#6D799D;margin-bottom: 0px; font-size: 15px;margin-right: 0px;margin-left: 0px; cursor: pointer;border-right: 0px;display: none;">Find Me On</p>
+<button type="button" class="btn1" id="bt2" style="margin-top: 20px;float: right; padding: 6px; background-color: #0F1626;border: 2px solid #6D799D;color:#6D799D;margin-bottom: 0px; font-size: 15px;margin-right: 20px;margin-left: 0px;border-radius: 10%;cursor: pointer;">&nbsp;<i class="fa fa-download"></i>&nbsp;<i class="fa fa-cog fa-spin"></i></button>
+<p id="p2" style="margin-top: 20px;float: right; padding: 6px; background-color: #0F1626;border: 2px solid #6D799D;color:#6D799D;margin-bottom: 0px; font-size: 15px;margin-right: 0px;margin-left: 0px; cursor: pointer;border-right: 0px;display: none;">Download CV</p>
+<button type="button" class="btn1" id="bt3" style="margin-top: 20px;float: right; padding: 6px; background-color: #0F1626;border: 2px solid #6D799D;color:#6D799D;margin-bottom: 0px; font-size: 15px;margin-right: 20px;margin-left: 0px;border-radius: 10%;cursor: pointer;">&nbsp;<i class="fa fa-envelope"></i>&nbsp;<i class="fa fa-cog fa-spin"></i></button>
+<p id="p3" style="margin-top: 20px;float: right; padding: 6px; background-color: #0F1626;border: 2px solid #6D799D;color:#6D799D;margin-bottom: 0px; font-size: 15px;margin-right: 0px;margin-left: 0px; cursor: pointer;border-right: 0px;display: none;">Send Message</p>
+
+<div id="div1" style="width:240px; background-color:#6D799D;border: 2px solid  #ccccb3;height: 550px; margin-top:40px; border-left: 0px;float: left; margin-right: 0px;margin-left: 0px; margin-bottom: 0px;display: none;opacity:0.3;">
+<table style="width:90%;height: 90%;margin-left: 10px;">
+	<tr>
+		<th style="text-align: center;font-size: 20px;color:#fff;border-bottom: 2px solid #fff; font-family: 'Sofia';">Find Me On!</th>
+	</tr>
+	<tr>
+		<td style="text-align: center;font-size: 20px;color:#fff; "><i id="i1" class="fa fa-facebook-square"></i></td>
+	</tr>
+	<tr>
+		<td style="text-align: center;font-size: 20px;color:#fff; "><i id="i2" class="fa fa-instagram"></i></td>
+	</tr>
+	<tr >
+		<td style="text-align: center;font-size: 20px;color:#fff; "><i id="i3" class="fa fa-google-plus-square"></i></td>
+	</tr>
+	<tr>
+		<td style="text-align: center;font-size: 20px;color:#fff; "><i id="i4" class="fa fa-github-alt"></i></td>
+	</tr>
+	<tr>
+		<td style="text-align: center;font-size: 20px;color:#fff; border: 2px solid #fff;border-radius:5%;height: 7%;">Download CV</td>
+	</tr>
+	<tr>
+		<td style="text-align: center;font-size: 20px;color:#fff; border: 2px solid #fff;border-radius:5%;height: 7%;margin-top: 30px;">Send Message</td>
+	</tr>
+</table>
+</div>
+
+<div style="width:1000px; height:40px;background-color: #0F1626; margin-top:30px; float: right;margin-left: 0px; margin-bottom: 0px;margin-right: 0px;clear: right;">
+<ul>
+  <li ><a href="#section1" class="1" style="background-color: #4ABDAC;">Intro</a></li>
+  <li ><a href="#section2" class="1" style="background-color: #f7b733;">Education</a></li>
+  <li ><a href="#section3" class="1" style="background-color: #4ABDAC;">Skills</a></li>
+  <li ><a href="#section4" class="1" style="background-color: #f7b733;">Projects</a></li>
+  <li ><a href="#section5" class="1" style="background-color: #4ABDAC;">Contact</a></li>
+</ul>
+
+</div>
+<div style="width:1000px; height:450px;background-color: #FF533D; margin-top:30px; float: right;margin-left: 0px;" id="section1">
+
+<h1>Hi I'm Snehil !</h1>
+<p id="pa1">welcome to my <i class="fa fa-spinner fa-spin" style="font-size: 20px; color:#f7b733;"></i> <i class="fa fa-spinner fa-spin" style="font-size: 20px; color:#f7b733;"></i></p>
+<p id="pa2"><span class="type"></span></p>
+<img src="snehil.jpg" width="250px" height="250px" align="left" style="margin-top: -350px;margin-left: 70px; border-radius: 50%; border: 6px solid #4ABDAC;">
+</div>
+<div style="width:100%; height:450px; margin-top:30px; float: left;margin-right: 0px;" id="section2">
+	<div style="width:22.50%; height:100%;background-color: #4ABDAC; margin-top:0px; float: left;margin-right: 0px; margin-bottom: 0px;margin-right: 0px;clear: right;">
+<h2>Education</h2>
+</div>
+	<div style="width:75%; height:100%;background-color: #f7b733; float: right;margin-left: 0px;">
+
+
+</div>
+
+
+
+</div>
+
+<div style="width:100%; height:450px; margin-top:30px; float: left;margin-right: 0px;" id="section3">
+	<div style="width:22.50%; height:100%;background-color: #f7b733; margin-top:0px; float: left;margin-right: 0px; margin-bottom: 0px;margin-right: 0px;clear: right;">
+<h2 style="margin-top: 50px;">Skills</h2>
+</div>
+	<div style="width:75%; height:100%;background-color: #FF533D; float: right;margin-left: 0px;">
+
+
+</div>
+
+
+
+</div>
+
+<div style="width:100%; height:450px; margin-top:30px; float: left;margin-right: 0px;" id="section4">
+	<div style="width:22.50%; height:100%;background-color: #4ABDAC; margin-top:0px; float: left;margin-right: 0px; margin-bottom: 0px;margin-right: 0px;clear: right;">
+<h2 style="margin-top: 20px;">Projects</h2>
+</div>
+	<div style="width:75%; height:100%;background-color: #f7b733; float: right;margin-left: 0px;">
+
+
+</div>
+
+
+
+</div>
+
+<div style="width:100%; height:450px; margin-top:30px; float: left;margin-right: 0px;" id="section5">
+	<div style="width:22.50%; height:100%;background-color: #f7b733; margin-top:0px; float: left;margin-right: 0px; margin-bottom: 0px;margin-right: 0px;clear: right;">
+<h2 style="margin-top: 30px;">Contact</h2>
+</div>
+	<div style="width:75%; height:100%;background-color: #FF533D; float: right;margin-left: 0px;">
+
+
+</div>
+
+
+
+</div>
+
+</body>
+</html>
