@@ -92,83 +92,108 @@ $(document).ready(function(){
 <title>Snehil Srivastava</title>
 <style>
 	ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
+	    list-style-type: none;
+	    margin: 0;
+	    padding: 0;
+	    overflow: hidden;
+	}
 
-li {
-    float: left;
-    width: 20%;
-}
+	li {
+	    float: left;
+	    width: 20%;
+	}
 
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 16px;
-    text-decoration: none;
-}
+	li a {
+	    display: block;
+	    color: white;
+	    text-align: center;
+	    padding: 16px;
+	    text-decoration: none;
+	}
 
-li a:hover {
-	font-size: 18px;
-}
-#i1:hover{
-	font-size: 38px;
-	cursor: pointer;
-	color: #1a1aff;
+	li a:hover {
+		font-size: 18px;
+	}
+	#i1:hover{
+		font-size: 38px;
+		cursor: pointer;
+		color: #1a1aff;
 
-}
-#i2:hover{
-	font-size: 38px;
-	cursor: pointer;
-	color: #ff1a75;
-}
-#i3:hover{
-	font-size: 38px;
-	cursor: pointer;
-	color: red;
-}
-#i4:hover{
-	font-size: 38px;
-	cursor: pointer;
-	color: black;
-}
-h1{
-	margin-top: 0px;
-	margin-left: 220px;
-	text-align: center;
-	font-family: 'Sofia';
-	font-size: 5vw;
-	color: #0F1626;
-}
-h2{
-	margin-top: 0px;
-	margin-left: 130px;
-	text-align: center;
-	font-family: 'Aclonica';
-	font-size: 43px;
-	width: 1px;
-	word-wrap: break-word;
-	color: #0F1626;
-}
-#pa1{
-	margin-left: 500px;
-	margin-top: -20px;
-	text-align: center;
-	font-size: 4.5vw;
-	font-family: 'Sofia';
-	color: #f7b733;
-}
-#pa2{
-	margin-left: 300px;
-	margin-top: -20px;
-	text-align: center;
-	font-size: 4.5vw;
-	font-family: 'Aclonica';
-	color: #0F1626;
-}
+	}
+	#i2:hover{
+		font-size: 38px;
+		cursor: pointer;
+		color: #ff1a75;
+	}
+	#i3:hover{
+		font-size: 38px;
+		cursor: pointer;
+		color: red;
+	}
+	#i4:hover{
+		font-size: 38px;
+		cursor: pointer;
+		color: black;
+	}
+	h1{
+		margin-top: 0px;
+		margin-left: 220px;
+		text-align: center;
+		font-family: 'Sofia';
+		font-size: 5vw;
+		color: #0F1626;
+	}
+	h2{
+		margin-top: 0px;
+		margin-left: 130px;
+		text-align: center;
+		font-family: 'Aclonica';
+		font-size: 43px;
+		width: 1px;
+		word-wrap: break-word;
+		color: #0F1626;
+	}
+	#pa1{
+		margin-left: 500px;
+		margin-top: -20px;
+		text-align: center;
+		font-size: 4.5vw;
+		font-family: 'Sofia';
+		color: #f7b733;
+	}
+	#pa2{
+		margin-left: 300px;
+		margin-top: -20px;
+		text-align: center;
+		font-size: 4.5vw;
+		font-family: 'Aclonica';
+		color: #0F1626;
+	}
+	table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 90%;
+    margin: auto;
+    margin-top: 30px ;
+	}
+
+	td {
+	    border: 1px solid #000000;
+	    text-align: left;
+	    padding: 8px;
+	}
+
+	th{
+		border: 1px solid #000000;
+	    text-align: left;
+	    padding: 8px;
+	    background-color: black ;
+	    color: white ;
+	}
+
+	tr:nth-child(odd) {
+	    background-color: #dddddd;
+	}
 </style>
 </head>
 <body style="background-color: #0F1626">
@@ -229,7 +254,25 @@ h2{
 <h2>Education</h2>
 </div>
 	<div style="width:75%; height:100%;background-color: #f7b733; float: right;margin-left: 0px;">
-
+	<table>
+  <tr>
+    <td><b>Jaypee Institute Of Information technology (JIIT),Noida</b><br>
+B.Tech , Computer Science Engineering ( 2015 – 2019)</td>
+    <td>CGPA : 7.7 (6th sem)</td>
+  </tr>
+  <tr>
+    <td><b>St. Paul’s Inter College, Shahjahanpur </b>(CBSE )<br>
+12th (2014-2015)</td>
+    <td>Percentage: 88%</td>
+  </tr>
+  <tr>
+    <td><b>St. Paul’s Inter College , Shahjahanpur </b>(CBSE)<br>
+10th
+ (2012-2013)</td>
+    <td>CGPA : 10</td>
+  </tr>
+  
+</table>
 
 </div>
 
@@ -255,7 +298,43 @@ h2{
 <h2 style="margin-top: 20px;">Projects</h2>
 </div>
 	<div style="width:75%; height:100%;background-color: #f7b733; float: right;margin-left: 0px;">
-
+		<table>
+  <tr>
+    <th>Company</th>
+    <th>Contact</th>
+    <th>Country</th>
+  </tr>
+  <tr>
+    <td>Alfreds Futterkiste</td>
+    <td>Maria Anders</td>
+    <td>Germany</td>
+  </tr>
+  <tr>
+    <td>Centro comercial Moctezuma</td>
+    <td>Francisco Chang</td>
+    <td>Mexico</td>
+  </tr>
+  <tr>
+    <td>Ernst Handel</td>
+    <td>Roland Mendel</td>
+    <td>Austria</td>
+  </tr>
+  <tr>
+    <td>Island Trading</td>
+    <td>Helen Bennett</td>
+    <td>UK</td>
+  </tr>
+  <tr>
+    <td>Laughing Bacchus Winecellars</td>
+    <td>Yoshi Tannamuri</td>
+    <td>Canada</td>
+  </tr>
+  <tr>
+    <td>Magazzini Alimentari Riuniti</td>
+    <td>Giovanni Rovelli</td>
+    <td>Italy</td>
+  </tr>
+</table>
 
 </div>
 
